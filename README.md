@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ## Input Data
 
-Download the two raster files from the Google Drive folder and place them inside the `data/` directory before running the notebook. **Do not commit these files to the repository.**
+Place the two raster files inside the `data/` directory before running the notebook.
 
 | File | Description | CRS |
 |------|-------------|-----|
