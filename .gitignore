@@ -1,0 +1,38 @@
+# Input data files (do not commit)
+data/*.tif
+data/*.zip
+data/*.tiff
+
+# Exclude all PNGs in output except the final dashboard
+output/*.png
+!output/dashboard_brecha_digital.png
+
+# Keep output directory tracked
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
