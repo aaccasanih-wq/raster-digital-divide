@@ -3,8 +3,9 @@ data/*.tif
 data/*.zip
 data/*.tiff
 
-# Intermediate output maps (not required deliverables)
-output/map*.png
+# Exclude all PNGs in output except the final dashboard
+output/*.png
+!output/dashboard_brecha_digital.png
 
 # Keep output directory tracked
 !output/.gitkeep
