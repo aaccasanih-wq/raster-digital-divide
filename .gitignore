@@ -1,11 +1,10 @@
-# Data files (do not commit raster data)
+# Input data files (do not commit)
 data/*.tif
 data/*.zip
 data/*.tiff
 
-# Output rasters and figures
-output/*.tif
-output/*.tiff
+# Intermediate output maps (not required deliverables)
+output/map*.png
 
 # Keep output directory tracked
 !output/.gitkeep
